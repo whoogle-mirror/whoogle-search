@@ -1,0 +1,5 @@
+version: "1"
+rules:
+  - base: heroku-app-beta
+    upstream: benbusby:heroku-app-beta    # change `wei` to the owner of upstream repo
+    mergeMethod: hardreset
